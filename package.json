@@ -4,7 +4,8 @@
   "description": "This project shows a lot of images about a specific topic  when the user enter it.",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
